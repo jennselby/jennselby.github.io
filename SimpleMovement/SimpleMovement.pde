@@ -12,7 +12,7 @@ void setup() {
   y = random(0, height - boxHeight);
   xSpeed = random(1, 10);
   ySpeed = random(1, 10);
-  penguin = loadImage("penguin.jpg");
+  penguin = loadImage("https://jennselby.github.io/penguin.jpg");
   penguin.resize(int(boxWidth), int(boxHeight));
 }
 
